@@ -1,8 +1,5 @@
 var friends = ['Cat', 'James', 'Tommy', 'Rachel', 'Sonya'];
 
-
-
-
 for (let i = 0; i < friends.length; i++) {
     let friendsEach = friends[i];
     console.log(friendsEach + ":");
@@ -12,7 +9,6 @@ for (let i = 0; i < friends.length; i++) {
         if (t === 1) {
             var word = 'line'
         };
-
 
         if (t > 2) {
             console.log(t + " " + word + " of code in the file,", t, word, "of code;",
@@ -29,7 +25,5 @@ for (let i = 0; i < friends.length; i++) {
             console.log(t + " " + word + ' of code in the file,', t, word, 'of code;',
                 friendsEach, 'strikes one out, cleares it all out, no more lines of code in the file.');
         }
-
     };
-
 };
